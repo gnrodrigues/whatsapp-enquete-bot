@@ -55,13 +55,33 @@ Verifique sua versão do Python:
 ```bash
 python --version
 
+
+📥 Instalação
+
+Clone o repositório:
+
 git clone https://github.com/gnrodrigues/whatsapp-poll-bot.git
 
+Entre na pasta do projeto:
+
 cd whatsapp-poll-bot
+📦 Instalar dependências
+
+Instale as bibliotecas necessárias:
 
 pip install -r requirements.txt
 
+O arquivo requirements.txt contém:
+
+selenium
+webdriver-manager
+▶️ Executar o bot
+
+Para executar o script:
+
 python bot.py
+
+O navegador abrirá automaticamente.
 
 🔐 Login no WhatsApp (QR Code)
 
@@ -117,3 +137,42 @@ Preenche a pergunta
 Insere as opções da enquete
 
 Envia a enquete
+
+⚠️ Observações importantes
+
+Este projeto utiliza automação no WhatsApp Web.
+
+Use com moderação, pois automações podem violar os Termos de Serviço do WhatsApp.
+
+Este projeto é destinado para:
+
+estudos
+
+automação pessoal
+
+experimentação com Selenium
+
+🔮 Possíveis melhorias futuras
+
+Algumas melhorias que podem ser implementadas:
+
+envio para múltiplos grupos
+
+leitura da enquete a partir de arquivo JSON
+
+agendamento automático de enquetes
+
+interface de linha de comando
+
+interface gráfica
+
+👨‍💻 Autor
+
+Gabriel Nava Rodrigues
+
+⭐ Contribuição
+
+Pull requests são bem-vindos.
+
+Se o projeto foi útil para você, considere dar uma ⭐ no repositório.
+
