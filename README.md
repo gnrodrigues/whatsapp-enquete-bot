@@ -50,13 +50,14 @@ Antes de rodar o projeto, você precisa ter instalado:
 - **Python 3.9 ou superior**
 - **Google Chrome**
 
+
 Verifique sua versão do Python:
 
-```bash
+bash
 python --version
-
 ---
-📥 Instalação
+
+# 📥 Instalação
 
 Clone o repositório:
 
