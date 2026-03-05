@@ -61,7 +61,7 @@ python --version
 
 Clone o repositório:
 
-git clone https://github.com/gnrodrigues/whatsapp-poll-bot.git
+git clone https://github.com/gnrodrigues/whatsapp-enquete-bot.git
 
 Entre na pasta do projeto:
 
