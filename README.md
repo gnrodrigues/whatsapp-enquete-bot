@@ -32,3 +32,88 @@ Ideal para:
 ---
 
 # 📂 Estrutura do projeto
+
+whatsapp-poll-bot
+│
+├── bot.py
+├── requirements.txt
+├── README.md
+└── .gitignore
+
+
+---
+
+# 📋 Pré-requisitos
+
+Antes de rodar o projeto, você precisa ter instalado:
+
+- **Python 3.9 ou superior**
+- **Google Chrome**
+
+Verifique sua versão do Python:
+
+```bash
+python --version
+
+git clone https://github.com/gnrodrigues/whatsapp-poll-bot.git
+
+cd whatsapp-poll-bot
+
+pip install -r requirements.txt
+
+python bot.py
+
+🔐 Login no WhatsApp (QR Code)
+
+Quando o navegador abrir o WhatsApp Web, aparecerá um QR Code.
+
+Para autenticar:
+
+Abra o WhatsApp no celular
+
+Vá em Dispositivos conectados
+
+Clique em Conectar dispositivo
+
+Escaneie o QR Code exibido no navegador
+
+Após o primeiro login, a sessão será salva no perfil do Chrome criado pelo script.
+
+Isso significa que não será necessário escanear novamente em execuções futuras.
+
+⚙️ Configuração da enquete
+
+Edite as variáveis no início do arquivo bot.py.
+
+Nome do grupo
+NOME_GRUPO = "Happy Hour"
+Pergunta da enquete
+PERGUNTA = "Happy Hour Hoje?"
+Opções da enquete
+OPCOES = [
+    "Vou",
+    "Talvez",
+    "Não vou"
+]
+
+Você pode adicionar mais opções conforme necessário.
+
+🔎 Como o script funciona
+
+O bot executa os seguintes passos automaticamente:
+
+Abre o WhatsApp Web
+
+Aguarda login via QR Code
+
+Busca o grupo configurado
+
+Abre o menu de anexos
+
+Seleciona a opção Poll
+
+Preenche a pergunta
+
+Insere as opções da enquete
+
+Envia a enquete
