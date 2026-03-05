@@ -33,7 +33,7 @@ Ideal para:
 
 # 📂 Estrutura do projeto
 
-whatsapp-poll-bot
+- whatsapp-poll-bot
 │
 ├── bot.py
 ├── requirements.txt
@@ -55,7 +55,7 @@ Verifique sua versão do Python:
 ```bash
 python --version
 
-
+---
 📥 Instalação
 
 Clone o repositório:
