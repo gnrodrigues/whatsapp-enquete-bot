@@ -65,7 +65,7 @@ git clone https://github.com/gnrodrigues/whatsapp-enquete-bot.git
 
 Entre na pasta do projeto:
 
-cd whatsapp-poll-bot
+cd whatsapp-enquete-bot
 # 📦 Instalar dependências
 
 Instale as bibliotecas necessárias:
