@@ -153,29 +153,6 @@ automação pessoal
 
 experimentação com Selenium
 
-# 🔮 Possíveis melhorias futuras
-
-Algumas melhorias que podem ser implementadas:
-
-envio para múltiplos grupos
-
-leitura da enquete a partir de arquivo JSON
-
-agendamento automático de enquetes
-
-interface de linha de comando
-
-interface gráfica
-
-# 👨‍💻 Autor
-
-Gabriel Nava Rodrigues
-
-# ⭐ Contribuição
-
-Pull requests são bem-vindos.
-
-Se o projeto foi útil para você, considere dar uma ⭐ no repositório.
 
 # ▶️ Como usar BAT
 
@@ -218,6 +195,28 @@ O arquivo .bat também pode ser usado no Agendador de Tarefas do Windows para ex
 Exemplo de uso:
 
 enviar enquete diária
+
+# 🔮 Possíveis melhorias futuras
+
+Algumas melhorias que podem ser implementadas:
+
+envio para múltiplos grupos
+
+leitura da enquete a partir de arquivo JSON
+
+interface de linha de comando
+
+interface gráfica
+
+# 👨‍💻 Autor
+
+Gabriel Nava Rodrigues
+
+# ⭐ Contribuição
+
+Pull requests são bem-vindos.
+
+Se o projeto foi útil para você, considere dar uma ⭐ no repositório.
 
 criar votações recorrentes em grupos
 
