@@ -177,3 +177,49 @@ Pull requests são bem-vindos.
 
 Se o projeto foi útil para você, considere dar uma ⭐ no repositório.
 
+# ▶️ Como usar BAT
+
+Edite arquivo run_bot.bat na raiz do projeto.
+
+Substitua o caminho abaixo pelo caminho real da pasta do projeto:
+
+C:\caminho\para\whatsapp-enquete-bot
+
+Exemplo:
+
+C:\Users\Gabriel\Documents\whatsapp-enquete-bot
+
+Execute o bot com duplo clique no arquivo:
+
+run_bot.bat
+
+O script irá:
+
+acessar a pasta do projeto
+
+executar bot.py
+
+abrir o navegador automaticamente
+
+# 💡 Vantagens
+
+execução rápida
+
+não precisa abrir terminal
+
+mais fácil para usuários iniciantes
+
+útil para automação ou agendamento no Windows
+
+# ⏰ Execução agendada (opcional)
+
+O arquivo .bat também pode ser usado no Agendador de Tarefas do Windows para executar o bot automaticamente em horários específicos.
+
+Exemplo de uso:
+
+enviar enquete diária
+
+criar votações recorrentes em grupos
+
+automatizar organização de eventos
+
